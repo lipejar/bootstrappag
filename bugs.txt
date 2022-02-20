@@ -1,0 +1,11 @@
+- Para fixar o header na tela eu n consegui de jeito nenhum criando a classe active 
+(nem mesmo com outros nomes), pois bugava e somente alguns <li> fixavam e ficavam 
+tudo acavalados, a solução foi utilizar uma classe própria do bootstrap 5, chamada 
+sticky-top, no custom.css editei ela com as propriedades da active (colocando !important 
+no background-color) e na função do jQuery coloquei para add e remover ela ao rolar a página;
+
+- Pode-se evitar criar algumas variáveis para cores tbm (nesse projeto ate não é muito o caso disso, mas vale a dica), ao abrir o devtools do navegador(F12), já aparecem diversas variáveis de cores do próprio bootstrap, todas começando com --bs-nomedacor;
+
+Pra quem está usando a  última versão do Bootstrap 5 e está tendo dificuldade com as margens,
+Antes como está no vídeo era: ml-5 (margin left) e mr-5 (margin right).
+Agora ficou assim: ms-5 (margin left) e me-5 (margin right).
